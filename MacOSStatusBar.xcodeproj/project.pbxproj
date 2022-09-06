@@ -11,6 +11,7 @@
 		032260FE28C6E90D00BFD070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032260FD28C6E90D00BFD070 /* ContentView.swift */; };
 		0322610028C6E90E00BFD070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032260FF28C6E90E00BFD070 /* Assets.xcassets */; };
 		0322610328C6E90E00BFD070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0322610228C6E90E00BFD070 /* Preview Assets.xcassets */; };
+		0322610B28C6E9B200BFD070 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322610A28C6E9B200BFD070 /* StatusBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		032260FF28C6E90E00BFD070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0322610228C6E90E00BFD070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0322610428C6E90E00BFD070 /* MacOSStatusBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSStatusBar.entitlements; sourceTree = "<group>"; };
+		0322610A28C6E9B200BFD070 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		032260FA28C6E90D00BFD070 /* MacOSStatusBar */ = {
 			isa = PBXGroup;
 			children = (
+				0322610A28C6E9B200BFD070 /* StatusBarController.swift */,
 				032260FB28C6E90D00BFD070 /* MacOSStatusBarApp.swift */,
 				032260FD28C6E90D00BFD070 /* ContentView.swift */,
 				032260FF28C6E90E00BFD070 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032260FE28C6E90D00BFD070 /* ContentView.swift in Sources */,
+				0322610B28C6E9B200BFD070 /* StatusBarController.swift in Sources */,
 				032260FC28C6E90D00BFD070 /* MacOSStatusBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
