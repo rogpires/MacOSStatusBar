@@ -40,6 +40,7 @@
 		032260EF28C6E90D00BFD070 = {
 			isa = PBXGroup;
 			children = (
+				03EBAEFF28E9049900F1C62E /* README.md */,
 				032260FA28C6E90D00BFD070 /* MacOSStatusBar */,
 				032260F928C6E90D00BFD070 /* Products */,
 			);
@@ -62,7 +63,6 @@
 				032260FF28C6E90E00BFD070 /* Assets.xcassets */,
 				0322610428C6E90E00BFD070 /* MacOSStatusBar.entitlements */,
 				0322610128C6E90E00BFD070 /* Preview Content */,
-				03EBAEFF28E9049900F1C62E /* README.md */,
 			);
 			path = MacOSStatusBar;
 			sourceTree = "<group>";
@@ -282,6 +282,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +310,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
