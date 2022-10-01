@@ -12,6 +12,7 @@
 		0322610028C6E90E00BFD070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032260FF28C6E90E00BFD070 /* Assets.xcassets */; };
 		0322610328C6E90E00BFD070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0322610228C6E90E00BFD070 /* Preview Assets.xcassets */; };
 		0322610B28C6E9B200BFD070 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0322610A28C6E9B200BFD070 /* StatusBarController.swift */; };
+		03EBAF0028E9049900F1C62E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03EBAEFF28E9049900F1C62E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0322610228C6E90E00BFD070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0322610428C6E90E00BFD070 /* MacOSStatusBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSStatusBar.entitlements; sourceTree = "<group>"; };
 		0322610A28C6E9B200BFD070 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		03EBAEFF28E9049900F1C62E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				032260FF28C6E90E00BFD070 /* Assets.xcassets */,
 				0322610428C6E90E00BFD070 /* MacOSStatusBar.entitlements */,
 				0322610128C6E90E00BFD070 /* Preview Content */,
+				03EBAEFF28E9049900F1C62E /* README.md */,
 			);
 			path = MacOSStatusBar;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03EBAF0028E9049900F1C62E /* README.md in Resources */,
 				0322610328C6E90E00BFD070 /* Preview Assets.xcassets in Resources */,
 				0322610028C6E90E00BFD070 /* Assets.xcassets in Resources */,
 			);
